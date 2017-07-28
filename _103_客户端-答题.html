@@ -1,0 +1,172 @@
+﻿<!DOCTYPE html>
+<html>
+  <head>
+    <title>[103]客户端-答题</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8"/>
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    <link href="resources/css/jquery-ui-themes.css" type="text/css" rel="stylesheet"/>
+    <link href="resources/css/axure_rp_page.css" type="text/css" rel="stylesheet"/>
+    <link href="data/styles.css" type="text/css" rel="stylesheet"/>
+    <link href="files/_103_客户端-答题/styles.css" type="text/css" rel="stylesheet"/>
+    <script src="resources/scripts/jquery-1.7.1.min.js"></script>
+    <script src="resources/scripts/jquery-ui-1.8.10.custom.min.js"></script>
+    <script src="resources/scripts/axure/axQuery.js"></script>
+    <script src="resources/scripts/axure/globals.js"></script>
+    <script src="resources/scripts/axutils.js"></script>
+    <script src="resources/scripts/axure/annotation.js"></script>
+    <script src="resources/scripts/axure/axQuery.std.js"></script>
+    <script src="resources/scripts/axure/doc.js"></script>
+    <script src="data/document.js"></script>
+    <script src="resources/scripts/messagecenter.js"></script>
+    <script src="resources/scripts/axure/events.js"></script>
+    <script src="resources/scripts/axure/recording.js"></script>
+    <script src="resources/scripts/axure/action.js"></script>
+    <script src="resources/scripts/axure/expr.js"></script>
+    <script src="resources/scripts/axure/geometry.js"></script>
+    <script src="resources/scripts/axure/flyout.js"></script>
+    <script src="resources/scripts/axure/ie.js"></script>
+    <script src="resources/scripts/axure/model.js"></script>
+    <script src="resources/scripts/axure/repeater.js"></script>
+    <script src="resources/scripts/axure/sto.js"></script>
+    <script src="resources/scripts/axure/utils.temp.js"></script>
+    <script src="resources/scripts/axure/variables.js"></script>
+    <script src="resources/scripts/axure/drag.js"></script>
+    <script src="resources/scripts/axure/move.js"></script>
+    <script src="resources/scripts/axure/visibility.js"></script>
+    <script src="resources/scripts/axure/style.js"></script>
+    <script src="resources/scripts/axure/adaptive.js"></script>
+    <script src="resources/scripts/axure/tree.js"></script>
+    <script src="resources/scripts/axure/init.temp.js"></script>
+    <script src="files/_103_客户端-答题/data.js"></script>
+    <script src="resources/scripts/axure/legacy.js"></script>
+    <script src="resources/scripts/axure/viewer.js"></script>
+    <script src="resources/scripts/axure/math.js"></script>
+    <script type="text/javascript">
+      $axure.utils.getTransparentGifPath = function() { return 'resources/images/transparent.gif'; };
+      $axure.utils.getOtherPath = function() { return 'resources/Other.html'; };
+      $axure.utils.getReloadPath = function() { return 'resources/reload.html'; };
+    </script>
+  </head>
+  <body>
+    <div id="base" class="">
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u821" class="ax_default box_3">
+        <img id="u821_img" class="img " src="images/_1_0_0_在线考试系统/u0.png"/>
+        <!-- Unnamed () -->
+        <div id="u822" class="text" style="display: none; visibility: hidden">
+          <p><span></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u823" class="ax_default box_2">
+        <img id="u823_img" class="img " src="images/_1_0_0_在线考试系统/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u824" class="text" style="visibility: visible;">
+          <p><span>需求背景（需求背景描述）</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u825" class="ax_default box_1">
+        <img id="u825_img" class="img " src="images/_103_客户端-答题/u825.png"/>
+        <!-- Unnamed () -->
+        <div id="u826" class="text" style="visibility: visible;">
+          <p><span>&nbsp;&nbsp; &nbsp; &nbsp;&nbsp; 考生在答题时，需要把握好考试的时间，合理分配时间，发挥自己的有事，发现题目不会做，可能会放着后面再做，但是可能会遗忘，交卷的时候，导致成绩不理想，考试交卷后，对比标准答案和考生的作答，自动计算分数。</span></p><p><span><br></span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u827" class="ax_default box_2">
+        <img id="u827_img" class="img " src="images/_1_0_0_在线考试系统/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u828" class="text" style="visibility: visible;">
+          <p><span>期望实现的目标</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u829" class="ax_default box_1">
+        <img id="u829_img" class="img " src="images/_1_0_0_在线考试系统/u50.png"/>
+        <!-- Unnamed () -->
+        <div id="u830" class="text" style="visibility: visible;">
+          <p><span>1、在线答题，选择答案的时候就讲考试序号和所选择的答案相对应，保存起来；</span></p><p><span>2、答题可以手动进行调整顺序，点击上一题进入上一题（当前非第一题），点击下一题进入下一题（当前非最后一题），单击第一题进入第一题，点击最后一题进入最后一题；</span></p><p><span>3、显示倒计时，倒计时时间总量依照考试管理所规定的时间确定，倒计时显示分和秒，倒计时进入最后十五分钟的时候闪烁10次，每秒1次，字体为红色，10秒后恢复黑色；倒计时为0的时候强制提交试卷，并显示本次考试分数；</span></p><p><span>4、漏答检查功能，提示漏答题目的序号，如果没有的未答题，则显示无漏答题目；</span></p><p><span>5、单击交卷，自动进行漏答检查，如果没有漏答的题目，进行答案比对，进行分数计算，显示本次考试的成绩，如果有漏答的题目，进行温馨提示，考生可自行决定是否继续作答，继续作答则进行答题，否则按照无漏答题目的流程处理；</span></p><p><span>6、交卷后，把考试成绩按照身份证号码对应的保存起来；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u831" class="ax_default box_2">
+        <img id="u831_img" class="img " src="images/_1_0_0_在线考试系统/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u832" class="text" style="visibility: visible;">
+          <p><span>目标价值</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u833" class="ax_default box_1">
+        <img id="u833_img" class="img " src="images/_1_0_0_在线考试系统/u50.png"/>
+        <!-- Unnamed () -->
+        <div id="u834" class="text" style="visibility: visible;">
+          <p><span>1、便捷选择答题顺序；</span></p><p><span>2、漏答提示，帮助考生检查；</span></p><p><span>3、倒计时分时段提醒，帮助考生更好的把握时间；</span></p><p><span>4、自动计算分数，提升工作效率；</span></p><p><span>5、保存分数，便于查阅</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u835" class="ax_default box_2">
+        <img id="u835_img" class="img " src="images/_1_0_0_在线考试系统/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u836" class="text" style="visibility: visible;">
+          <p><span>风险</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u837" class="ax_default box_1">
+        <img id="u837_img" class="img " src="images/_1_0_0_在线考试系统/u50.png"/>
+        <!-- Unnamed () -->
+        <div id="u838" class="text" style="visibility: visible;">
+          <p><span>1、没有在交卷之前禁用退出按钮，可能导致误点直接退出；</span></p><p><span>2、考试倒计时15分钟提醒过于粗糙，可能影响考生心态；</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u839" class="ax_default box_2">
+        <img id="u839_img" class="img " src="images/_1_0_0_在线考试系统/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u840" class="text" style="visibility: visible;">
+          <p><span>目标用户</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u841" class="ax_default box_1">
+        <img id="u841_img" class="img " src="images/_1_0_0_在线考试系统/u50.png"/>
+        <!-- Unnamed () -->
+        <div id="u842" class="text" style="visibility: visible;">
+          <p><span>1、考生</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u843" class="ax_default box_2">
+        <img id="u843_img" class="img " src="images/_1_0_0_在线考试系统/u2.png"/>
+        <!-- Unnamed () -->
+        <div id="u844" class="text" style="visibility: visible;">
+          <p><span>前置条件</span></p>
+        </div>
+      </div>
+
+      <!-- Unnamed (Rectangle) -->
+      <div id="u845" class="ax_default box_1">
+        <img id="u845_img" class="img " src="images/_1_0_0_在线考试系统/u50.png"/>
+        <!-- Unnamed () -->
+        <div id="u846" class="text" style="visibility: visible;">
+          <p><span>1、进入答题流程；</span></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
